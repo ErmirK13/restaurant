@@ -86,23 +86,15 @@
   </section>
 
 <script>
-  // JavaScript për të kontrolluar levizjen e karuselit
-  // Përshtatni këtë nëse keni nevojë për ndryshime të tjera
+  
   $(document).ready(function(){
     $('.carousel').carousel({
-      interval: 4000, // Koha në milidetaje midis çdo slajdi (5000ms = 5 sekonda)
-      pause: false // Ndaloja automatike e aktivizuar
+      interval: 4000, 
+      pause: false 
     });
   });
 </script>
 
-
-  
-  
-  
-
-     
-       <!-- pjesa e about us -->
        <section id="about-section" class="bg-light text-muted py-5">
         <div class="container py-4">
             <div class="row align-items-center">
@@ -149,8 +141,6 @@
     </section>
     
 
-
-           <!-- Explore Head Section-->
   <section >
     <div class="container">
       <div class="row">
@@ -165,7 +155,6 @@
     </div>
   </section>
 
-  <!-- EXPLORE AND CONTENT -->
   <section id="services-section" class="bg-light text-muted py-5 ">
     <div class="container">
       <div class="row ">
@@ -416,7 +405,7 @@
       <div class="row">
         <div class="col-lg-3 col-md-6 wow fadeInUp">
           <div class="team-item text-center overflow-hidden">
-            <div class="d-flex justify-content-center"> <!-- Shtoje klasen d-flex justify-content-center -->
+            <div class="d-flex justify-content-center"> 
               <div class="rounded-circle overflow-hidden m-4">
                 <img class="img-fluid" src="images/chef4.jpg" alt="">
               </div>
@@ -433,7 +422,7 @@
 
         <div class="col-lg-3 col-md-6 wow fadeInUp">
           <div class="team-item text-center overflow-hidden">
-            <div class="d-flex justify-content-center"> <!-- Shtoje klasen d-flex justify-content-center -->
+            <div class="d-flex justify-content-center">
               <div class="rounded-circle overflow-hidden m-4">
                 <img class="img-fluid" src="images/chef5.jpg" alt="">
               </div>
@@ -450,7 +439,7 @@
         
         <div class="col-lg-3 col-md-6 wow fadeInUp">
           <div class="team-item text-center overflow-hidden">
-            <div class="d-flex justify-content-center"> <!-- Shtoje klasen d-flex justify-content-center -->
+            <div class="d-flex justify-content-center"> 
               <div class="rounded-circle overflow-hidden m-4">
                 <img class="img-fluid" src="images/chef6.jpg" alt="">
               </div>
@@ -467,7 +456,7 @@
            
         <div class="col-lg-3 col-md-6 wow fadeInUp">
           <div class="team-item text-center overflow-hidden">
-            <div class="d-flex justify-content-center"> <!-- Shtoje klasen d-flex justify-content-center -->
+            <div class="d-flex justify-content-center">
               <div class="rounded-circle overflow-hidden m-4">
                 <img class="img-fluid" src="images/chef7.jpg" alt="">
               </div>
@@ -575,10 +564,7 @@
 </section>
 
 <script>
-  // Merr vitin e tanishëm
   var currentYear = new Date().getFullYear();
-
-  // Vendos vitin në span-in me id "year"
   document.getElementById("year").innerHTML = currentYear;
 </script>
 
@@ -589,7 +575,7 @@
 <script>
     function showPhotos() {
         var photos = document.getElementById("photoContainer");
-        photos.style.display = "block"; // Shfaq produktet kur butoni klikohet
+        photos.style.display = "block"; 
     }
     var showMoreClicked = false;
 
