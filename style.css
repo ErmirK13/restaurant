@@ -3,14 +3,12 @@
   opacity: 0.8; 
 }
 .carousel-item {
-  height: 100vh; /* Set the height of the carousel item to cover the entire viewport */
-  
+  height: 100vh;  
 }
-
 .carousel-item img {
-  object-fit: cover; /* Ensure the image covers the entire carousel item */
-  height: 100%; /* Set the height of the image to cover the carousel item */
-  width: 100%; /* Set the width of the image to cover the carousel item */
+  object-fit: cover; 
+  height: 100%; 
+  width: 100%; 
 }
 .carousel-caption {
   display: flex;
@@ -18,10 +16,8 @@
   justify-content: center;
   align-items: center;
   height: 100%;}
-
 .content{
   padding-top: 100px;
- 
 }
 .lorem{
   padding-top: 1px !important;
@@ -47,33 +43,28 @@
   background-color: orange;
 }
 .btn-secondary {
-  color: #ffffff !important; /* Ngjyra e tekstit */
-  background-color: #ff7f00 !important; /* Ngjyra e sfondit */
-  border-color: #ff7f00 !important; /* Ngjyra e kufijve */
+  color: #ffffff !important; 
+  background-color: #ff7f00 !important; 
+  border-color: #ff7f00 !important; 
 }
-
 .btn-secondary:hover {
-  color: #ffffff !important; /* Ngjyra e tekstit në hover */
-  background-color: #ff5e00 !important; /* Ngjyra e sfondit në hover */
-  border-color: #ff5e00 !important; /* Ngjyra e kufijve në hover */
+  color: #ffffff !important; 
+  background-color: #ff5e00 !important; 
+  border-color: #ff5e00 !important;
 }
 .team-item {
-  height: 100%; /* Siguro që të gjitha elementet e ekipit të kenë një lartësi të njëjtë */
+  height: 100%; 
 }
-
 .team-item .rounded-circle {
-  width: 200px; /* Dimensioni i fotove */
-  height: 200px; /* Dimensioni i fotove */
-  margin: 0 auto 15px; /* Vendos fotot në qendër */
- 
+  width: 200px; 
+  height: 200px; 
+  margin: 0 auto 15px; 
 }
-
 .team-item h5 {
-  margin-top: 35px; /* Vendos një hapësirë mes fotove dhe emrave të personelit */
+  margin-top: 35px; 
 }
 .team-item .d-flex {
-  justify-content: space-around; /* Vendos butonat dhe tekstin në mes të fotove */
-   /* Hapësirë mes tekstit dhe butonave */
+  justify-content: space-around; 
 }
 #butoni{
   width: 30%;
@@ -85,7 +76,6 @@
  color:black;
  width: 80%;
  margin: auto;
- 
 }
 #photoContainer {
   display: none;
@@ -93,4 +83,3 @@
 .text-orange{
   color: orange;
 }
-
